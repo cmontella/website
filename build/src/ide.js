@@ -1971,7 +1971,7 @@ var IDE = (function () {
                 client_1.client.sendEvent([{ tag: ["inspector", "clear"] }]);
                 _this.saveDocument();
                 if (shouldEval) {
-                    if (_this.documentId === "quickstart.eve") {
+                    if (_this.documentId === "foo.eve") {
                         _this.eval(false);
                     }
                     else {
