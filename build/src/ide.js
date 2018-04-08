@@ -1971,7 +1971,7 @@ var IDE = (function () {
                 client_1.client.sendEvent([{ tag: ["inspector", "clear"] }]);
                 _this.saveDocument();
                 if (shouldEval) {
-                    if (_this.documentId === "foo.eve") {
+                    if (_this.documentId === "cv.eve") {
                         _this.eval(false);
                     }
                     else {

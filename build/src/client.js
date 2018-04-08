@@ -214,9 +214,9 @@ var EveClient = (function () {
         this.localControl = true;
         this.localEve = true;
         if (!this.ide) {
-            var path_1 = (window.location.hash || "").slice(1) || "/examples/foo.eve";
+            var path_1 = (window.location.hash || "").slice(1) || "/examples/cv.eve";
             ;
-            this._initProgram({ config: { runtimeOwner: config_1.Owner.client, controlOwner: config_1.Owner.client, editor: true, path: path_1 }, path: (window.location.hash || "").slice(1) || "/examples/foo.eve", code: "", workspaces: window["_workspaceCache"] });
+            this._initProgram({ config: { runtimeOwner: config_1.Owner.client, controlOwner: config_1.Owner.client, editor: true, path: path_1 }, path: (window.location.hash || "").slice(1) || "/examples/cv.eve", code: "", workspaces: window["_workspaceCache"] });
         }
         else {
             this.injectNotice("error", "Unexpectedly disconnected from the server. Please refresh the page.");
@@ -309,7 +309,7 @@ var EveClient = (function () {
                 found = this.ide.loadFile(docId, data.code);
             }
             if (!found && config_1.config.internal) {
-                this.ide.loadFile("/examples/foo.eve");
+                this.ide.loadFile("/examples/cv.eve");
             }
         }
         onHashChange({});
@@ -478,7 +478,7 @@ function changeDocument() {
         return;
     var ide = exports.client.ide;
     // @FIXME: This is not right in the non-internal case.
-    var docId = "/examples/foo.eve";
+    var docId = "/examples/cv.eve";
     var path = location.hash && location.hash.split('?')[0].split("#")[1];
     if (path[path.length - 1] === "/")
         path = path.slice(0, -1);
