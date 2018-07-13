@@ -99,12 +99,12 @@
 							Dynamic soaring (DS) is an aerobatic maneuver whereby a gliding aircraft harnesses energy from horizontal wind that varies in strength and/or direction to support flight. Typical approaches to dynamic soaring in autonomous unmanned aerial vehicles (UAVs) use nonlinear optimizers to generate energy-gaining trajectories, which are then followed using traditional controllers. The effectiveness of such a strategy is limited by both the local optimality of the generated trajectory, as well as controller tracking errors. In this paper, we investigate a reinforcement learning (RL) approach working in continuous space to control a DS aircraft flying in shear wind conditions. The RL controller operates in two stages: In the first stage, it observes a traditional sample-based controller flying a locally optimal DS trajectory generated a priori. In the second stage, the sample-based controller is removed and authority is passed to the RL algorithm. We show that by deviating from the original planned trajectory, the RL controller is able to achieve better performance than its baseline teacher controller.
 							</div>
 <pre id="bc5" class="bibtex">@inproceedings{MONTELLA_IROS:14,
-	author	 = {Corey Montella and John Spletzer},
-	title	 = {Reinforcement Learning for Autonomous Dynamic Soaring in Shear Winds},
+	author = {Corey Montella and John Spletzer},
+	title = {Reinforcement Learning for Autonomous Dynamic Soaring in Shear Winds},
 	booktitle = {Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-	address  = {Chicago, United States},
-	month	 = {September},
-	year	 = {2014}
+	address = {Chicago, United States},
+	month = {September},
+	year = {2014}
 }</pre>
 						</li>
 						<li>
@@ -119,13 +119,13 @@
 ect of turbulence is assessed through the addition of Dryden turbulence in the simulation environment.
 							</div>
 							<pre id="bc4" class="bibtex">@inproceedings{BIRD_AIAA:14,
-  author  = {John J. Bird and Jack W. Langelaan and Corey Montella and John Spletzer and Joachim Grenestedt},
-  title   = {Closing the Loop in Dynamic Soaring},
+  author = {John J. Bird and Jack W. Langelaan and Corey Montella and John Spletzer and Joachim Grenestedt},
+  title = {Closing the Loop in Dynamic Soaring},
   booktitle = {Proceedings of the AIAA Guidance, Navigation and Control Conference},
-  address  = {National Harbor, United States},
-  month   = {January},
-  year   = {2014},
-  doi    = {10.2514/6.2014-0263}
+  address = {National Harbor, United States},
+  month = {January},
+  year = {2014},
+  doi  = {10.2514/6.2014-0263}
 }</pre>
 
 
@@ -141,12 +141,12 @@ ect of turbulence is assessed through the addition of Dryden turbulence in the s
 In this paper, we demonstrate reliable navigation of a smart wheelchair system (SWS) in an urban environment. Urban environments present unique challenges for service robots. They require localization accuracy at the sidewalk level, but compromise GPS position estimates through significant multi-path effects. However, they are also rich in landmarks that can be leveraged by feature-based localization approaches. To this end, our SWS employed a map-based localization approach. A map of the environment was acquired using a server vehicle, synthesized a priori, and made accessible to the SWS. The map embedded not only the locations of landmarks, but also semantic data delineating 7 different landmark classes to facilitate robust data association. Landmark segmentation and tracking by the SWS was then accomplished using both 2D and 3D LIDAR systems. The resulting localization method has demonstrated decimeter level positioning accuracy in a global coordinate frame. The localization package was integrated into a ROS framework with a sample based motion planner and control loop running at 5 Hz to enable autonomous navigation. For validation, the SWS repeatedly navigated autonomously between Lehigh University —s Packard Laboratory and the University bookstore, a distance of approximately 1.0 km roundtrip.
 </div>
 <pre id="bc3" class="bibtex">@inproceedings{MONTELLA_FSR:12,
-  author  	= {Corey Montella and Tim Perkins and John Spletzer and Michael Sands},
-  title  	= {To the bookstore! Autonomous Wheelchair Navigation in an Urban Environment},
+  author = {Corey Montella and Tim Perkins and John Spletzer and Michael Sands},
+  title = {To the bookstore! Autonomous Wheelchair Navigation in an Urban Environment},
   booktitle 	= {Proc. of the Int. Conf. on Field and Service Robotics (FSR)},
   address 	= {Matsushima, Japan},
-  month   	= {July},
-  year   	= {2012}
+  month  = {July},
+  year  = {2012}
 }</pre>
 						</li>
 						<li>
@@ -160,12 +160,12 @@ In this paper, we demonstrate reliable navigation of a smart wheelchair system (
 							The potential for a gliding UAV to sustain flight by dynamically soaring in a hurricane is investigated. Leveraging extensive storm observations, the wind profile of the hurricane eye is modeled as a continuous function that is zero at the center and increases as a power of the radius. We then derive the equations of motion for a UAV flying in this wind field, and prove analytically that if the wind field exponent n = 1, dynamic soaring is not possible. This analytical result is also validated in simulation. We also provide extensive simulation results for the case where the wind field exponent n &gt; 1. These results indicate that dynamic soaring is in fact possible for such storms, and the velocity gain for a single dynamic soaring cycle is correlated with the wind field gradient. 
 							</div>
 <pre id="bc2" class="bibtex">@inproceedings{GRENESTEDT_ICUAS:12,
-	author	 = {Joachim Grenestedt and Corey Montella and John Spletzer},
-	title	 = {Dynamic Soaring in Hurricanes},
+	author = {Joachim Grenestedt and Corey Montella and John Spletzer},
+	title = {Dynamic Soaring in Hurricanes},
 	booktitle = {Proc. of the Int. Conf. on Unmanned Aircraft Systems (ICUAS)},
-	address  = {Philadelphia, United States},
-	month	 = {June},
-	year	 = {2012}
+	address = {Philadelphia, United States},
+	month = {June},
+	year = {2012}
 }</pre>
 						</li>
 						<li>
@@ -179,12 +179,12 @@ In this paper, we demonstrate reliable navigation of a smart wheelchair system (
 							A method for distributed parameter estimation of a previously unknown wind field is described. The application is dynamic soaring for small unmanned air vehicles, which severely constrains available computing while simultaneously requiring updates that are fast compared with a typical dynamic soaring cycle. A polynomial parameterization of the wind field is used, allowing implementation of a linear Kalman filter for parameter estimation. Results of Monte Carlo simulations show the effectiveness of the approach. In addition, in-flight measurements of wind speeds are compared with data obtained from video tracking of balloon launches to assess the accuracy of wind field estimates obtained using commercial autopilot modules. 
 							</div>
 <pre id="bc1" class="bibtex">@inproceedings{LANGELAAN_ICRA:12
-  author		= {Jack Langelaan and John Spletzer and Cory Montella and Joachim Grenestedt},
-  title		= {Wind Field Estimation for Autonomous Dynamic Soaring},
-  booktitle		= {Rec. the IEEE Int. Conf. on Robotics and Automation(ICRA)}.
-  address		= {Minneapolis, MN},
-  month		= {May},
-  year		= {2012}
+  author = {Jack Langelaan and John Spletzer and Cory Montella and Joachim Grenestedt},
+  title = {Wind Field Estimation for Autonomous Dynamic Soaring},
+  booktitle = {Rec. the IEEE Int. Conf. on Robotics and Automation(ICRA)}.
+  address = {Minneapolis, MN},
+  month = {May},
+  year = {2012}
 }</pre>
 						</li>
 					</ul>
@@ -223,12 +223,12 @@ In this paper, we demonstrate reliable navigation of a smart wheelchair system (
 							In this paper we investigate the potential for enhancing the perception capabilities of smart wheelchair systems (SWS) in an urban environment through intensity-based terrain classification. A 3D camera system was employed that provided both range and intensity (remission) measurements to objects in the scene. Each sensor measurement was represented by a feature vector consisting of range, bearing angle, and intensity values. We then constructed a stochastic model by discretizing the feature space into cells, each of which corresponded to a probability mass function (PMF) denoting the probability a point in the feature space belonged to one of four classes: grass, sidewalk, street (blacktop), or unknown. The stochastic model was generated a priori from literally millions of labeled point measurements of the different terrain classes. Bayesian filtering techniques were then used to make a terrain class assignment for ground plane cells in the local map over time. We illustrate the utility of the approach by demonstrating autonomous sidewalk following of the SWS over two hundred of meters solely through terrain class assignment. Extensions such as enhanced ground plane segmentation are also discussed.
 							</div>
 <pre id="bw1" class="bibtex">@inproceedings{MONTELLA_IROS:12,
-  author  = {Corey Montella and Michael Pollock and Dylan Schwesinger and John Spletzer},
-  title   = {Stochastic Classification of Urban Terrain for Smart Wheelchair Navigation},
+  author = {Corey Montella and Michael Pollock and Dylan Schwesinger and John Spletzer},
+  title = {Stochastic Classification of Urban Terrain for Smart Wheelchair Navigation},
   booktitle = {Proc. of the IROS Workshop on Progress, Challenges and Future Perspectives in Navigation and Manipulation Assistance for Robotic Wheelchairs},
-  address  = {Vila Moura, Portugal},
-  month   = {October},
-  year   = {2012}
+  address = {Vila Moura, Portugal},
+  month = {October},
+  year = {2012}
 }</pre>
 						</li>
 					</ul>
